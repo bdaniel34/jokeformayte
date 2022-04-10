@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+
+}
+ 
+ 
+.header{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(19, 61, 225);
+  float: left;
+  width:100%;
+  background:  blue;
+}
+.header form {
+  float: left;
+}
+  .right{
+    align-content:right;
+ 
+  }
+  
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
