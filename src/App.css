@@ -1,6 +1,36 @@
+h1,h3{
+  color:yellow;
+  display:table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  background-color:#ffffff;
+ 
+
+}
+ 
+h2{
+  color:rgb(245, 153, 5);
+   background-color:#ffffff;
+  
+}
 .App {
   text-align: center;
-
+  background-image:url("https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png");
+ 
+  
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+  
 }
  
  
@@ -20,7 +50,7 @@
  
   }
   
- 
+   
 .App-header {
   background-color: #282c34;
   min-height: 10vh;
