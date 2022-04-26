@@ -136,7 +136,7 @@ export default function App() {
           value="Mandar asumiendo las consecuencias posiblemente mortales"
         />
         <div>
-          <textarea name="messag" />{" "}
+          <textarea name="messag" /> 
         </div>
       </form>
       <div className="right">
